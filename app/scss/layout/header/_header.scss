@@ -1,0 +1,25 @@
+//-------------------------
+//-------------------HEADER
+//-------------------------
+.header {
+	padding: 30px;
+	.logo {
+		display: inline-block;
+	}
+} 
+
+.nav_menu {
+	background-color: $nav-color;
+	ul li {
+		padding:20px 15px; 
+	a {
+		font-family: Salsa;
+		font-weight: bold;
+		font-size:1.56rem;
+		line-height: 1;
+		letter-spacing: 1px;
+		text-decoration: none;
+		color:$title-color;
+		}
+	}
+}
