@@ -11,6 +11,7 @@ $colorBlue : #00F;
 $colorMain : $colorWhite;
 $nav-color:#F6FAFD;
 $title-color:#86b4d9;
+$orange:#FC8A58;
 
 //-----PATHS
 $fontBaseUrl   : "http://static1.webedia.fr/fonts/";
@@ -33,6 +34,8 @@ $toDesktop--large: 1599px;
 
 //------FONTS
 $baseFont        : Arial, Helvetica, Tahoma, sans-serif;
+$textFont: 'Roboto Condensed', sans-serif;
+$titleFont:'Salsa';
 $mainFont        : "Gotham", $baseFont;
 $mainFont--bold  : "", $baseFont;
 $mainFont--italic: "", $baseFont;
