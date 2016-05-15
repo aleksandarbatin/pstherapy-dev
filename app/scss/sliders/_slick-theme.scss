@@ -1,3 +1,7 @@
+/*=========================
+-------- SLICK THEME
+==========================*/
+
 @charset "UTF-8";
 
 // Default Variables
@@ -39,7 +43,9 @@ $slick-opacity-not-active: 0.25 !default;
     }
 }
 
-/* Slider */
+/*-------------------
+------ SLIDER
+--------------------*/
 
 .slick-list {
     .slick-loading & {
@@ -58,7 +64,9 @@ $slick-opacity-not-active: 0.25 !default;
     }
 }
 
-/* Arrows */
+/*-------------------
+------ ARROWS
+--------------------*/
 
 .slick-prev,
 .slick-next {
@@ -128,10 +136,12 @@ $slick-opacity-not-active: 0.25 !default;
     }
 }
 
-/* Dots */
+/*------------
+----- DOTS 
+---------------*/
 
 .slick-dotted.slick-slider {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .slick-dots {

@@ -22,12 +22,11 @@
 @import "config/reset";
 @import "config/baseConfig";
 @import "config/typography";
-@import "config/helpers";
 
 //------COMPONENTS
-@import "components/container";
 @import "components/button";
-@import "components/navigation/navigation";
+@import "components/teaser-box";
+@import "components/content-block";
 
 //------LAYOUT
 @import "layout/header/header";
@@ -35,6 +34,7 @@
 @import "layout/article/articles";
 
 //------SLIDERS
+@import "sliders/homeSlider";
 @import "sliders/slickSlider";
 @import "sliders/slick-theme";
 
