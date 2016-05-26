@@ -42,7 +42,26 @@
 		padding:10px 20px;
 		border-radius:5px;
 	}
+	.datemini {
+	color: $orange;
+	}
 }
+
+.content_block_minibox {
+	overflow: hidden;
+	margin-bottom:20px;
+	img {
+		display:inline-block;
+	}
+	.content_minibox_intro {
+		display:inline-block;
+		margin-left: 20px;
+		width:70%;
+		clear:both;
+	}
+}
+
+
 
 .content_block:nth-of-type(1){
 	float:left;

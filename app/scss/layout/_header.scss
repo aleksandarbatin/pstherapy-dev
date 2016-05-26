@@ -22,9 +22,10 @@
 	border-radius: 10px;
 	border-bottom: 1px solid rgb(229, 238, 244);
 	ul li {
-		padding:25px 15px;
 		border-right: 1px solid rgb(209, 226, 237); 
 	a {
+		display:block;
+		padding: 24px 18px;
 		font-family: Salsa, cursive;
 		//font-weight: bold;
 		font-size:1.56rem;
@@ -32,6 +33,10 @@
 		letter-spacing: 1px;
 		text-decoration: none;
 		color:$title-color;
+		}
+	a:hover {
+		color:#fff;
+		background-color:#76D6F9;
 		}
 	}
 }

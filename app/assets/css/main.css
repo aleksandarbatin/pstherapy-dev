@@ -276,6 +276,19 @@ u {
     font-family: "Roboto Condensed", sans-serif;
     padding: 10px 20px;
     border-radius: 5px; }
+  .content_block .datemini {
+    color: #FC8A58; }
+
+.content_block_minibox {
+  overflow: hidden;
+  margin-bottom: 20px; }
+  .content_block_minibox img {
+    display: inline-block; }
+  .content_block_minibox .content_minibox_intro {
+    display: inline-block;
+    margin-left: 20px;
+    width: 70%;
+    clear: both; }
 
 .content_block:nth-of-type(1) {
   float: left;
@@ -307,16 +320,23 @@ u {
   border-radius: 10px;
   border-bottom: 1px solid #e5eef4; }
   .nav_menu ul li {
-    padding: 25px 15px;
     border-right: 1px solid #d1e2ed; }
     .nav_menu ul li a {
+      display: block;
+      padding: 24px 18px;
       font-family: Salsa, cursive;
       font-size: 1.56rem;
       line-height: 1;
       letter-spacing: 1px;
       text-decoration: none;
       color: #86b4d9; }
+    .nav_menu ul li a:hover {
+      color: #fff;
+      background-color: #76D6F9; }
 
+/*=========================
+----- FOOTER
+===========================*/
 .footer_menu {
   padding: 15px 0;
   text-align: center;
@@ -578,18 +598,21 @@ u {
   .slick-dots li {
     position: relative;
     display: inline-block;
-    height: 30px;
-    width: 30px;
+    top: 0px;
+    left: 0px;
+    width: 29px;
+    height: 28px;
+    border-radius: 0px;
     margin: 0 5px;
     padding: 0;
     cursor: pointer;
-    background: url("../img/camera_pag_item_point.png"); }
+    background: url("../img/camera_pag_item_point.png") 0px 0px no-repeat; }
     .slick-dots li button {
       border: 0;
       background: transparent;
       display: block;
-      height: 20px;
-      width: 20px;
+      height: 28px;
+      width: 29px;
       outline: none;
       line-height: 0px;
       font-size: 0px;
@@ -605,16 +628,13 @@ u {
         top: 0;
         left: 0;
         content: "•";
-        width: 20px;
-        height: 20px;
-        font-family: "slick";
-        font-size: 6px;
-        line-height: 20px;
+        width: 29px;
+        height: 28px;
         text-align: center;
-        color: black;
         opacity: 0.25;
         -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale; }
+        -moz-osx-font-smoothing: grayscale;
+        background: url("../img/camera_pag_item.png") 0px 0px no-repeat; }
     .slick-dots li.slick-active button:before {
       color: black;
       opacity: 0.75; }
