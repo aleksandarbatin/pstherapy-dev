@@ -7,19 +7,20 @@
 	margin-bottom:50px;
 }
 
+.content_title {
+	font-family: Salsa, cursive;
+	font-size: 1.8rem;
+	color:$title-color;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid rgb(235, 242, 247);
+}
+
 
 .content_block {
 	display: inline-block;
 	width:32%;
 	height:auto;
-	.content_block_title {
-		font-family: Salsa, cursive;
-		font-size: 1.8rem;
-		color:$title-color;
-		padding-bottom: 17px;
-    	margin-bottom: 15px;
-		border-bottom: 1px solid rgb(235, 242, 247);
-	}
 	.content_block_subtitle {
 		font-family:$textFont;
 		font-size:1rem;
