@@ -9,16 +9,13 @@
 
 //------FONT SIZES
 html {
-    $fontSizePX: $baseFontSize + 'px';
-    font-size  : #{$fontSizePX};
+    font-size : $baseFontSize;
 
     @include breakpoint (tablet) {
-        $fontSizePX: $baseFontSize / 1.5 + 'px';
-        font-size  : #{$fontSizePX};
+        font-size:14px;
     }
     @include breakpoint (phone) {
-        $fontSizePX: $baseFontSize / 2 + 'px';
-        font-size  : #{$fontSizePX};
+        font-size:12px;
     }
 }
 body {

@@ -19,12 +19,9 @@
         @media (max-width: $toDesktop)                          { @content; }
     }
     @else if $point == tablet {
-        @media (min-width: $tablet) and (max-width: $toDesktop) { @content; }
+        @media (max-width: 1024px)                              { @content; }
     }
     @else if $point == phone {
-        @media (max-width: $toTablet)                           { @content; }
-    }
-    @else if $point == phoneSmall {
-        @media (max-width: $toPhone--small)                     { @content; }
+        @media (max-width: 750px)                           { @content; }
     }
 }
