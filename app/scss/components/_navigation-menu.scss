@@ -1,0 +1,52 @@
+/*========================
+----- NAVIGATION - MENU
+==========================*/
+.nav_menu {
+	background-color: $nav-color;
+	border-radius: 10px;
+	border-bottom: 1px solid rgb(229, 238, 244);
+	.nav_menu_list > li {
+		border-right: 1px solid rgb(209, 226, 237); 
+	a {
+		display:block;
+		position:relative;
+		padding: 1.7rem 0.9rem;
+		font-family: Salsa, cursive;
+		//font-weight: bold;
+		font-size:1.56rem;
+		line-height: 1;
+		letter-spacing: 1px;
+		text-decoration: none;
+		color:$title-color;
+		}
+		a:hover {
+			color:#fff;
+			background-color:#76D6F9;
+		}
+		a:first-child {
+			border-radius: 10px;
+		}	
+	}
+	.dropdown-menu {
+	display:none;
+	position: absolute;
+	background-color:#78d7fa;
+	color:#fff;
+	z-index: 5555;
+	li {
+		display:block;
+		padding:1rem 2rem;
+		a {
+			color:#fff;
+			font-family:"Roboto Condensed", sans-serif;
+			}
+		}
+	}
+
+	.nav_menu_list>li:hover {
+	  	.dropdown-menu {
+	    display: block;
+	  	}
+	}
+}
+
