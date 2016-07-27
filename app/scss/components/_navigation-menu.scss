@@ -25,9 +25,10 @@
 			background-color:#76D6F9;
 		}
 	}
-	.nav_menu_list>li:first-child a{
-			 border-top-left-radius: 0.8rem;
-		}	
+	.nav_menu_list>li:first-child a {
+		border-top-left-radius: 0.8rem;
+		border-bottom-left-radius: 0.8rem;
+	}	
 	.dropdown-menu {
 		display:none;
 		position: absolute;
@@ -51,6 +52,10 @@
 	.nav_menu_list>li:hover {
 	  	.dropdown-menu {
 	    display: block;
+	  	}
+	  	.nav_menu_list>li a {
+			color:#fff;
+			background-color:#76D6F9;
 	  	}
 	}
 }

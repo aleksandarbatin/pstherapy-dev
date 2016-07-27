@@ -333,7 +333,8 @@ u {
       color: #fff;
       background-color: #76D6F9; }
   .nav_menu .nav_menu_list > li:first-child a {
-    border-top-left-radius: 0.8rem; }
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem; }
   .nav_menu .dropdown-menu {
     display: none;
     position: absolute;
@@ -352,6 +353,9 @@ u {
         font-size: 1rem; }
   .nav_menu .nav_menu_list > li:hover .dropdown-menu {
     display: block; }
+  .nav_menu .nav_menu_list > li:hover .nav_menu_list > li a {
+    color: #fff;
+    background-color: #76D6F9; }
 
 /*================
 ----- HEADER
