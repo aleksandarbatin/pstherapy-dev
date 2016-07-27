@@ -332,7 +332,8 @@ u {
       color: #fff;
       background-color: #76D6F9; }
     .nav_menu .nav_menu_list > li a:first-child {
-      border-radius: 10px; }
+      border-top-left-radius: 0.8rem;
+      border-top-right-radius: 0.8rem; }
   .nav_menu .dropdown-menu {
     display: none;
     position: absolute;
@@ -352,9 +353,11 @@ u {
 ----- HEADER
 =================*/
 .header {
-  padding: 30px; }
+  padding: 1.875rem; }
   .header .logo {
     display: inline-block; }
+    .header .logo img {
+      width: 15rem; }
 
 .page_container {
   padding: 3px 0 20px;

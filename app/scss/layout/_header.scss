@@ -3,9 +3,12 @@
 =================*/
 
 .header {
-	padding: 30px;
+	padding: 1.875rem;
 	.logo {
 		display: inline-block;
+		img {
+			width:15rem;
+		}
 	}
 } 
 

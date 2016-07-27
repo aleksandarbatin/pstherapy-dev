@@ -24,15 +24,16 @@
 			background-color:#76D6F9;
 		}
 		a:first-child {
-			border-radius: 10px;
+			 border-top-left-radius: 0.8rem;
+			 border-top-right-radius: 0.8rem;
 		}	
 	}
 	.dropdown-menu {
-	display:none;
-	position: absolute;
-	background-color:#78d7fa;
-	color:#fff;
-	z-index: 5555;
+		display:none;
+		position: absolute;
+		background-color:#78d7fa;
+		color:#fff;
+		z-index: 5555;
 	li {
 		display:block;
 		padding:1rem 2rem;
