@@ -37,6 +37,8 @@
 		background-color:#78d7fa;
 		color:#fff;
 		z-index: 5555;
+		border-bottom-right-radius: 0.8rem;
+		border-bottom-left-radius: 0.8rem;
 		li {
 			display:block;
 			padding:1rem 0;
@@ -53,10 +55,11 @@
 	  	.dropdown-menu {
 	    display: block;
 	  	}
-	  	.nav_menu_list>li a {
-			color:#fff;
-			background-color:#76D6F9;
-	  	}
 	}
+}
+
+.drop-hover:hover {
+	background-color:#76D6F9;
+	color:#fff;
 }
 

@@ -342,7 +342,9 @@ u {
     right: 0;
     background-color: #78d7fa;
     color: #fff;
-    z-index: 5555; }
+    z-index: 5555;
+    border-bottom-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem; }
     .nav_menu .dropdown-menu li {
       display: block;
       padding: 1rem 0; }
@@ -353,9 +355,10 @@ u {
         font-size: 1rem; }
   .nav_menu .nav_menu_list > li:hover .dropdown-menu {
     display: block; }
-  .nav_menu .nav_menu_list > li:hover .nav_menu_list > li a {
-    color: #fff;
-    background-color: #76D6F9; }
+
+.drop-hover:hover {
+  background-color: #76D6F9;
+  color: #fff; }
 
 /*================
 ----- HEADER
