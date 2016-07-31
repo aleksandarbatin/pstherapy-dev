@@ -360,6 +360,19 @@ u {
   background-color: #76D6F9;
   color: #fff; }
 
+/*==============================
+------  BREADCRUMBS
+===============================*/
+.breadcrumbs {
+  padding: 0.5rem 1rem;
+  background-color: #F6FAFD;
+  border-radius: 0.5rem; }
+  .breadcrumbs li a {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #86b4d9; }
+
 /*================
 ----- HEADER
 =================*/
