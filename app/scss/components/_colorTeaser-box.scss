@@ -1,10 +1,10 @@
 /*=========================
 -------  TEASER BOX
 ===========================*/
-.teaser {
+.colorTeaser {
 	padding:10px 20px;
 }
-.teaser_box {
+.colorTeaser_box {
 	display: inline-block;
 	width:32%;
 	height:10.625rem;
@@ -37,13 +37,13 @@
 		float:left;
 		margin-right: 20px;
 	}
-	.teaser_box_title {
+	.colorTeaser_box_title {
 		display:inline-block;
 		font-family: Salsa, cursive;
 		font-size: 2rem;
 		color:#fff;
 	}
-	.teaser_box_text p {
+	.colorTeaser_box_text p {
 		clear:both;
 		font-family:$textFont;
 		font-size:0.9rem;
