@@ -29,6 +29,7 @@
 @import "components/content-block";
 @import "components/navigation-menu";
 @import "components/breadcrumbs";
+@import "components/imageTeaser";
 
 //------LAYOUT
 @import "layout/header";
@@ -42,6 +43,7 @@
 
 //------PAGES
 @import "pages/ourCharities";
+@import "pages/contact";
 @import "pages/404Page";
 @import "pages/about";
 @import "pages/StaticPage";

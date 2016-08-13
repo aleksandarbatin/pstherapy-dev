@@ -5,6 +5,7 @@
 .content {
 	padding: 30px 20px;
 	margin-bottom: 3rem;
+	overflow: hidden;
 }
 
 .content_title {
@@ -38,13 +39,7 @@
 		line-height:1.4;
 		color: #86b4d9;
 	}
-	.btn-read {
-		background-color: #d1e102;
-		color: #fff;
-		font-family:$textFont;
-		padding:10px 20px;
-		border-radius:5px;
-	}
+	
 	.datemini {
 	color: $orange;
 	}
@@ -125,4 +120,5 @@
 	    background-color: #f98451;
 	}
 }
+
 

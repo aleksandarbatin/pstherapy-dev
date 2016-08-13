@@ -193,10 +193,17 @@ em {
 u {
   text-decoration: underline; }
 
-.btn-read {
+.btn-read, .contact .btnSend input, .contact .btnClear input {
   border: none;
   outline: none;
   -webkit-appearance: none; }
+
+.btn-read, .contact .btnSend input, .contact .btnClear input {
+  background-color: #d1e102;
+  color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 20px;
+  border-radius: 5px; }
 
 /*=========================
 -------  TEASER BOX
@@ -251,7 +258,8 @@ u {
 ===========================*/
 .content {
   padding: 30px 20px;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  overflow: hidden; }
 
 .content_title {
   font-family: Salsa, cursive;
@@ -279,12 +287,6 @@ u {
     font-size: 0.875rem;
     line-height: 1.4;
     color: #86b4d9; }
-  .content_block .btn-read, .content_block--wider .btn-read, .content_block--faqs .btn-read {
-    background-color: #d1e102;
-    color: #fff;
-    font-family: "Roboto Condensed", sans-serif;
-    padding: 10px 20px;
-    border-radius: 5px; }
   .content_block .datemini, .content_block--wider .datemini, .content_block--faqs .datemini {
     color: #FC8A58; }
   .content_block--wider {
@@ -331,12 +333,12 @@ u {
   float: left;
   margin-right: 2%; }
 
-.content_block:nth-of-type(2) .btn-read, .content_block--wider:nth-of-type(2) .btn-read, .content_block--faqs:nth-of-type(2) .btn-read {
+.content_block:nth-of-type(2) .btn-read, .content_block--wider:nth-of-type(2) .btn-read, .content_block--faqs:nth-of-type(2) .btn-read, .content_block:nth-of-type(2) .contact .btnSend input, .contact .btnSend .content_block:nth-of-type(2) input, .content_block--wider:nth-of-type(2) .contact .btnSend input, .contact .btnSend .content_block--wider:nth-of-type(2) input, .content_block--faqs:nth-of-type(2) .contact .btnSend input, .contact .btnSend .content_block--faqs:nth-of-type(2) input, .content_block:nth-of-type(2) .contact .btnClear input, .contact .btnClear .content_block:nth-of-type(2) input, .content_block--wider:nth-of-type(2) .contact .btnClear input, .contact .btnClear .content_block--wider:nth-of-type(2) input, .content_block--faqs:nth-of-type(2) .contact .btnClear input, .contact .btnClear .content_block--faqs:nth-of-type(2) input {
   background-color: #8bdaf8; }
 
 .content_block:nth-of-type(3), .content_block--wider:nth-of-type(3), .content_block--faqs:nth-of-type(3) {
   float: right; }
-  .content_block:nth-of-type(3) .btn-read, .content_block--wider:nth-of-type(3) .btn-read, .content_block--faqs:nth-of-type(3) .btn-read {
+  .content_block:nth-of-type(3) .btn-read, .content_block--wider:nth-of-type(3) .btn-read, .content_block--faqs:nth-of-type(3) .btn-read, .content_block:nth-of-type(3) .contact .btnSend input, .contact .btnSend .content_block:nth-of-type(3) input, .content_block--wider:nth-of-type(3) .contact .btnSend input, .contact .btnSend .content_block--wider:nth-of-type(3) input, .content_block--faqs:nth-of-type(3) .contact .btnSend input, .contact .btnSend .content_block--faqs:nth-of-type(3) input, .content_block:nth-of-type(3) .contact .btnClear input, .contact .btnClear .content_block:nth-of-type(3) input, .content_block--wider:nth-of-type(3) .contact .btnClear input, .contact .btnClear .content_block--wider:nth-of-type(3) input, .content_block--faqs:nth-of-type(3) .contact .btnClear input, .contact .btnClear .content_block--faqs:nth-of-type(3) input {
     background-color: #f98451; }
 
 /*========================
@@ -369,7 +371,7 @@ u {
     display: none;
     position: absolute;
     left: 0;
-    right: 0;
+    right: -4rem;
     background-color: #78d7fa;
     color: #fff;
     z-index: 5555;
@@ -402,6 +404,28 @@ u {
     font-size: 0.875rem;
     line-height: 1.4;
     color: #86b4d9; }
+
+/*=========================
+-------  IMAGE TEASER
+===========================*/
+.imageTeaser {
+  float: left;
+  width: 49%;
+  margin-right: 2%; }
+  .imageTeaser .imageTeaser__title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #c3d108; }
+  .imageTeaser .imageTeaser__text {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    color: #86b4d9; }
+  .imageTeaser:nth-of-type(2n+2) {
+    margin-right: 0; }
 
 /*================
 ----- HEADER
@@ -491,7 +515,7 @@ u {
     font-size: 1rem;
     line-height: 1rem;
     background: url("../img/slider_date_plane.png") 0px 0px no-repeat; }
-  .slider_content .btn-read {
+  .slider_content .btn-read, .slider_content .contact .btnSend input, .contact .btnSend .slider_content input, .slider_content .contact .btnClear input, .contact .btnClear .slider_content input {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
     font-size: 1rem;
@@ -746,6 +770,46 @@ u {
 
 .activities .content_block--wider {
   padding: 0; }
+
+/*=========================
+-------  CONTACT
+===========================*/
+.contact .content {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+.contact .content_block--wider {
+  padding: 0; }
+
+.contact .content_block--left p, .contact .content_block--left .content_block ul li, .content_block ul .contact .content_block--left li, .contact .content_block--left .content_block--wider ul li, .content_block--wider ul .contact .content_block--left li, .contact .content_block--left .content_block--faqs ul li, .content_block--faqs ul .contact .content_block--left li {
+  margin-bottom: 2rem; }
+
+.contact .infoForm input {
+  padding-left: 0.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.875rem;
+  color: #888;
+  width: 30%;
+  height: 2rem;
+  margin-right: 2%;
+  border-radius: 0.5rem;
+  -webkit-appearance: none;
+  appearance: none; }
+
+.contact .field {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+  .contact .field textarea {
+    width: 100%;
+    border-radius: 0.5rem; }
+
+.contact .btnSend input, .contact .btnClear input {
+  -webkit-appearance: button;
+  appearance: button;
+  border-style: none;
+  cursor: pointer; }
 
 /*=====================
 ----- PAGE - ABOUT
