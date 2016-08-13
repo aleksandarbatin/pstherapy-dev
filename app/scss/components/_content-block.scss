@@ -3,8 +3,8 @@
 ===========================*/
 
 .content {
-	padding: 10px 20px;
-	margin-bottom:50px;
+	padding: 30px 20px;
+	margin-bottom: 3rem;
 }
 
 .content_title {
@@ -22,6 +22,7 @@
 	display: inline-block;
 	width:32%;
 	height:auto;
+	margin-bottom: 4rem;
 	.content_block_subtitle {
 		font-family:$textFont;
 		font-size:1rem;
@@ -47,27 +48,50 @@
 	.datemini {
 	color: $orange;
 	}
-	&--wider {
-		@extend .content_block;
-		float:left!important;
-		margin-bottom: 1.5rem;
-		padding:1.5rem;
-		background-color: #f5f5f5;
-		width:64.66%;
-		.content_block_text {
-		font-style: italic;
+		&--wider {
+			@extend .content_block;
+			float:left!important;
+			margin-bottom: 1.5rem;
+			padding:1.5rem;
+
+			width:64.66%;
+			.content_block_text {
+			font-style: italic;
 		}
+		&.darkBg {
+			background-color: #f5f5f5;
+		}	
 	}
 	&--right {
-		@extend .content_block;
-		float:right!important;
+		float: right!important;
+	}
+	&--left {
+		float: left!important;
 	}
 	&--faqs {
 		@extend .content_block;
 		width:80%;
 		margin:0 auto;
 	}
+	ul {
+		margin-bottom: 4rem;
+	}
+	ul li {
+		display: block;
+		@extend p;
+		padding: 0.3rem 0;
+		&:before {
+			position: relative;
+		    top: 3px;
+		    width: 12px;
+		    height: 12px;
+		    margin-right: 8px;
+		    content: url("../../assets/img/list_arr1.png");
+		}
+	}
 }
+
+
 
 .content_block_minibox {
 	overflow: hidden;
