@@ -3,7 +3,7 @@
 ===========================*/
 
 .content {
-	padding: 30px 20px;
+	padding: 2rem 1.5rem;
 	margin-bottom: 3rem;
 	overflow: hidden;
 }
@@ -11,7 +11,7 @@
 .content_title {
 	font-family: Salsa, cursive;
 	font-size: 1.8rem;
-	color:$title-color;
+	color: $colorText-blue;
 	padding-bottom: 1rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -21,27 +21,27 @@
 
 .content_block {
 	display: inline-block;
-	width:32%;
-	height:auto;
+	width: 32%;
+	height: auto;
 	margin-bottom: 4rem;
 	.content_block_subtitle {
-		font-family:$textFont;
-		font-size:1rem;
-		line-height:1.5;
-		color: #c3d108;
+		font-family: $textFont;
+		font-size: 1rem;
+		line-height: 1.5;
+		color: $colorDecor-green;
 	}
 	.content_block_text {
-		margin-bottom:30px;
+		margin-bottom: 2rem;
 	}
 	p {
-		font-family:$textFont;
+		font-family: $textFont;
 		font-size: 0.875rem;
 		line-height:1.4;
-		color: #86b4d9;
+		color: $colorText-blue;
 	}
 	
 	.datemini {
-	color: $orange;
+	color: $colorDecor-orange;
 	}
 		&--wider {
 			@extend .content_block;
@@ -90,15 +90,16 @@
 
 .content_block_minibox {
 	overflow: hidden;
-	margin-bottom:20px;
+	margin-bottom: 1.5rem;
 	img {
-		display:inline-block;
+		float: left;
+		width: 28%;
 	}
 	.content_minibox_intro {
-		display:inline-block;
-		margin-left: 20px;
-		width:70%;
-		clear:both;
+		display: inline-block;
+		margin-left: 2%;
+		width: 68%;
+		clear: both;
 	}
 }
 
@@ -107,17 +108,18 @@
 .content_block:nth-of-type(1){
 	float:left;
 	margin-right: 2%;
+	.btn-read {
+	    background-color: $colorDecor-green;
+	}
 }
 
 .content_block:nth-of-type(2){
-	.btn-read {
-	    background-color: #8bdaf8;
-	}
+	
 }
 .content_block:nth-of-type(3){
 	float:right;
 	.btn-read {
-	    background-color: #f98451;
+	    background-color: $colorDecor-orange;
 	}
 }
 

@@ -7,9 +7,9 @@
     -webkit-appearance: none;
 }
 .btn-read {
-		background-color: #d1e102;
+		background-color: $colorDecor-blue;
 		color: #fff;
-		font-family:$textFont;
+		font-family: $textFont;
 		padding:10px 20px;
-		border-radius:5px;
+		border-radius: 5px;
 	}

@@ -9,19 +9,25 @@
 */
 
 @mixin breakpoint($point) {
-    @if $point == desktopLarge {
-        @media (min-width: $desktop--large)                     { @content; }
+
+    @if $point == deskTop {
+        @media (max-width: $deskTop)                            { @content; }
     }
-    @if $point == desktop {
-        @media (min-width: $desktop)                            { @content; }
+    @if $point == lapTop {
+        @media (max-width: $lapTop)                            { @content; }
     }
-    @else if $point == toDesktop {
-        @media (max-width: $toDesktop)                          { @content; }
+    @else if $point == tabletLandscape {
+        @media (max-width: $tabletLandscape)                              { @content; }
     }
     @else if $point == tablet {
-        @media (max-width: 1024px)                              { @content; }
-    }
-    @else if $point == phone {
-        @media (max-width: 750px)                           { @content; }
+        @media (max-width: $tablet)                           { @content; }
     }
 }
+
+//------MEDIA QUERIES
+$deskTop         : 1250px;
+$lapTop          : 1024px;
+$tabletLandscape : 980px;
+$tablet          : 768px;  
+
+

@@ -2,27 +2,27 @@
 ----- NAVIGATION - MENU
 ==========================*/
 .nav_menu {
-	background-color: $nav-color;
+	background-color: $colorDecor-white;
 	border-radius: 10px;
 	border-bottom: 1px solid rgb(229, 238, 244);
 	.nav_menu_list > li {
 		position:relative;
 		border-right: 1px solid rgb(209, 226, 237); 
 	a {
-		display:block;
-		position:relative;
+		display: block;
+		position: relative;
 		padding: 1.7rem 0.9rem;
 		font-family: Salsa, cursive;
 		//font-weight: bold;
-		font-size:1.56rem;
+		font-size: 1.56rem;
 		line-height: 1;
 		letter-spacing: 1px;
 		text-decoration: none;
-		color:$title-color;
+		color: $colorText-blue;
 		}
 		a:hover {
-			color:#fff;
-			background-color:#76D6F9;
+			color: #fff;
+			background-color: $colorDecor-blue;
 		}
 	}
 	.nav_menu_list>li:first-child a {
@@ -32,20 +32,20 @@
 	.dropdown-menu {
 		display:none;
 		position: absolute;
-		left:0;
-		right:-4rem;
-		background-color:#78d7fa;
-		color:#fff;
+		left: 0;
+		right: -4rem;
+		background-color: $colorDecor-blue;
+		color: #fff;
 		z-index: 5555;
 		border-bottom-right-radius: 0.8rem;
 		border-bottom-left-radius: 0.8rem;
 		li {
-			display:block;
-			padding:1rem 0;
+			display: block;
+			padding: 1rem 0;
 		a {
-			padding:0 1.3rem 0 0.5rem;
-			color:#fff;
-			font-family:"Roboto Condensed", sans-serif;
+			padding: 0 1.3rem 0 0.5rem;
+			color: #fff;
+			font-family: "Roboto Condensed", sans-serif;
 			font-size: 1rem;
 			}
 		}
@@ -59,7 +59,7 @@
 }
 
 .drop-hover:hover {
-	background-color:#76D6F9;
-	color:#fff;
+	background-color: $colorDecor-blue;
+	color: #fff;
 }
 

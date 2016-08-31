@@ -11,11 +11,17 @@
 html {
     font-size : $baseFontSize;
 
-    @include breakpoint (tablet) {
-        font-size:14px;
+    @include breakpoint (deskTop) {
+        font-size: $baseFontSize - 1 ;
     }
-    @include breakpoint (phone) {
-        font-size:12px;
+    @include breakpoint (lapTop) {
+        font-size: $baseFontSize - 2;
+    }
+    @include breakpoint (tabletLandscape) {
+        font-size: $baseFontSize - 3;
+    }
+    @include breakpoint (tablet) {
+        font-size: $baseFontSize - 4;
     }
 }
 body {

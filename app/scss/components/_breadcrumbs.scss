@@ -3,13 +3,13 @@
 =============================*/
 
 .breadcrumbs {
-	padding:0.5rem 1rem;
-	background-color:#F6FAFD;
-	border-radius:0.4rem;
+	padding: 0.5rem 1rem;
+	background-color: $colorDecor-white;
+	border-radius: 0.4rem;
 	li,a {
-		font-family:$textFont;
+		font-family: $textFont;
 		font-size: 0.875rem;
-		line-height:1.4;
-		color: #86b4d9;
+		line-height: 1.4;
+		color: $colorText-blue;
 	}
 }
