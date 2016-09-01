@@ -128,8 +128,8 @@ html, body {
   overflow-x: hidden; }
 
 body {
-  background: url("../img/bg.jpg");
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  background-color: #F6FAFD; }
 
 img {
   display: block;
@@ -242,7 +242,7 @@ u {
     margin-right: 0.6rem; }
   .colorTeaser_box .colorTeaser_box_title {
     display: inline-block;
-    font-family: Salsa, cursive;
+    font-family: "Acme", sans-serif;
     font-size: 2rem;
     color: #fff; }
   .colorTeaser_box .colorTeaser_box_text p, .colorTeaser_box .colorTeaser_box_text .content_block ul li, .content_block ul .colorTeaser_box .colorTeaser_box_text li, .colorTeaser_box .colorTeaser_box_text .content_block--wider ul li, .content_block--wider ul .colorTeaser_box .colorTeaser_box_text li, .colorTeaser_box .colorTeaser_box_text .content_block--faqs ul li, .content_block--faqs ul .colorTeaser_box .colorTeaser_box_text li {
@@ -356,7 +356,7 @@ u {
       display: block;
       position: relative;
       padding: 1.7rem 0.9rem;
-      font-family: Salsa, cursive;
+      font-family: "Acme", sans-serif;
       font-size: 1.56rem;
       line-height: 1;
       letter-spacing: 1px;
@@ -432,11 +432,15 @@ u {
 ----- HEADER
 =================*/
 .header {
+  overflow: hidden;
+  padding: 0 2rem;
   padding: 1.875rem; }
   .header .logo {
-    display: inline-block; }
-    .header .logo img {
-      width: 15rem; }
+    float: left; }
+    .header .logo a {
+      font-family: "Acme", sans-serif;
+      font-size: 3rem;
+      color: #6B7A8f; }
 
 .page_container {
   padding: 3px 0 20px;
@@ -444,7 +448,6 @@ u {
   border-radius: 10px; }
 
 .social-icons {
-  margin-top: 1.2rem;
   float: right; }
   .social-icons a {
     display: block;
@@ -552,7 +555,7 @@ u {
 
 .slider_content_title h4 {
   margin-bottom: 1rem;
-  font-family: "Salsa";
+  font-family: "Acme", sans-serif;
   font-size: 2rem;
   color: #F7882F; }
 

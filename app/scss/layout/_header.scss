@@ -3,11 +3,15 @@
 =================*/
 
 .header {
+	overflow: hidden;
+	padding: 0 2rem;
 	padding: 1.875rem;
 	.logo {
-		display: inline-block;
-		img {
-			width:15rem;
+		float: left;
+		a {
+		font-family: $titleFont;
+		font-size: 3rem;
+		color: $colorText-blue;	
 		}
 	}
 } 
@@ -19,7 +23,6 @@
 }
 
 .social-icons {
-    margin-top: 1.2rem;
 	float:right;
 	a {
 		display: block;
