@@ -20,10 +20,15 @@
     .date {
         position: relative;
         width:8rem;
-        height: 3rem;
+        height: 4.5rem;
         margin-bottom: 0.6rem;
+        background-image: url('/assets/img/slider_date_plane.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
         span {
             position: absolute;
+            top: 2rem;
+            left: 1rem;
             color: $colorText-blue;
             text-align: center;
             font-family: $textFont;
