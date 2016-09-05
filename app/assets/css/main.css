@@ -128,6 +128,7 @@ html, body {
   overflow-x: hidden; }
 
 body {
+  background: url("../img/pattern-gog.png");
   padding-bottom: 50px;
   background-color: #F4CC70; }
 
@@ -263,7 +264,7 @@ u {
   overflow: hidden; }
 
 .content_title {
-  font-family: Salsa, cursive;
+  font-family: "Acme", sans-serif;
   font-size: 1.8rem;
   color: #20948B;
   padding-bottom: 1rem;
