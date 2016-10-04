@@ -442,6 +442,12 @@ u {
       font-family: "Acme", sans-serif;
       font-size: 3rem;
       color: #4C3F54; }
+      .header .logo a svg {
+        width: 3.125rem;
+        height: 3.125rem;
+        vertical-align: sub; }
+        .header .logo a svg path {
+          fill: #4C3F54; }
 
 .page_container {
   padding: 3px 0 20px;

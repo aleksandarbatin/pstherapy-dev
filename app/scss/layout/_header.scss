@@ -11,7 +11,15 @@
 		a {
 		font-family: $titleFont;
 		font-size: 3rem;
-		color: $colorText-blue;	
+		color: $colorText-blue;
+			svg {
+				width: 3.125rem;
+				height: 3.125rem;
+				vertical-align: sub;
+				path {
+					fill: $colorText-blue;
+				}
+			}	
 		}
 	}
 } 
