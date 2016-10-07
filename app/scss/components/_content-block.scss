@@ -64,6 +64,9 @@
 			padding:1.5rem;
 
 			width:64.66%;
+			@include breakpoint(mobile) {
+				width: 100%;
+			}
 			.content_block_text {
 			font-style: italic;
 		}

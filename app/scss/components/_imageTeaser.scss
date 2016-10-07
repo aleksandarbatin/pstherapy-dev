@@ -13,12 +13,18 @@
 		font-size: 1rem;
 		line-height: 1.5;
 		color: $colorDecor-green;
+		@include breakpoint(mobile) {
+			font-size: 2.5rem;
+		}
 	}
 	.imageTeaser__text {
 		font-family: $textFont;
 		font-size: 0.875rem;
 		line-height: 1.4;
 		color: $colorText-blue;
+		@include breakpoint(mobile) {
+			font-size: 1.4rem;
+		}
 	}
 	&:nth-of-type(2n+2) {
 		margin-right: 0;

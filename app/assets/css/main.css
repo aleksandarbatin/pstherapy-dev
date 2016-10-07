@@ -341,6 +341,9 @@ u {
     margin-bottom: 1.5rem;
     padding: 1.5rem;
     width: 64.66%; }
+    @media (max-width: 680px) {
+      .content_block--wider {
+        width: 100%; } }
     .content_block--wider .content_block_text {
       font-style: italic; }
     .content_block--wider.darkBg {
@@ -466,6 +469,9 @@ u {
     font-size: 0.875rem;
     line-height: 1.4;
     color: #375E97; }
+    @media (max-width: 680px) {
+      .breadcrumbs li, .breadcrumbs a {
+        font-size: 1.4rem; } }
 
 /*=========================
 -------  IMAGE TEASER
@@ -481,11 +487,17 @@ u {
     font-size: 1rem;
     line-height: 1.5;
     color: #FB6542; }
+    @media (max-width: 680px) {
+      .imageTeaser .imageTeaser__title {
+        font-size: 2.5rem; } }
   .imageTeaser .imageTeaser__text {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 0.875rem;
     line-height: 1.4;
     color: #375E97; }
+    @media (max-width: 680px) {
+      .imageTeaser .imageTeaser__text {
+        font-size: 1.4rem; } }
   .imageTeaser:nth-of-type(2n+2) {
     margin-right: 0; }
 
@@ -978,21 +990,34 @@ u {
   height: auto;
   overflow: hidden; }
 
+.about .content_title {
+  font-size: 3rem; }
+
 .team_block {
   float: left;
   width: 32%;
   padding-bottom: 1rem; }
+  @media (max-width: 680px) {
+    .team_block {
+      width: 100%;
+      float: none; } }
   .team_block .team_block_name {
     margin: 0.5rem 0;
     font-family: "Roboto Condensed", sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     color: #c3d108; }
+    @media (max-width: 680px) {
+      .team_block .team_block_name {
+        font-size: 2.5rem; } }
   .team_block p, .team_block .content_block ul li, .content_block ul .team_block li, .team_block .content_block--wider ul li, .content_block--wider ul .team_block li, .team_block .content_block--faqs ul li, .content_block--faqs ul .team_block li {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 0.875rem;
     line-height: 1.4;
     color: #86b4d9; }
+    @media (max-width: 680px) {
+      .team_block p, .team_block .content_block ul li, .content_block ul .team_block li, .team_block .content_block--wider ul li, .content_block--wider ul .team_block li, .team_block .content_block--faqs ul li, .content_block--faqs ul .team_block li {
+        font-size: 1.4rem; } }
   .team_block img {
     width: 70%; }
 

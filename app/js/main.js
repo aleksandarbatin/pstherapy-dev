@@ -14,10 +14,18 @@ $(document).ready(function(){
     arrows: false,
   	cssEase: 'linear'
   });
+});
 
-  $('.menu_btn').on('click', function() {
+  // #####################################
+  // Toggle mobile menu
+  // #####################################
+
+  var mobileMenuToggle = function () {
+
+    $('.menu_btn').on('click', function() {
       $('.nav_menu').toggleClass('show'); /* hide and show menu*/
     });
-});
+
+};
 
 

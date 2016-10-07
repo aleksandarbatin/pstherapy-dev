@@ -11,5 +11,8 @@
 		font-size: 0.875rem;
 		line-height: 1.4;
 		color: $colorText-blue;
+		@include breakpoint(mobile) {
+			font-size: 1.4rem;
+		}
 	}
 }

@@ -4,31 +4,44 @@
 
 .about{
 	.content {
-		margin-bottom:0;
+		margin-bottom: 0;
 		height: auto;
     	overflow: hidden;
+	}
+	.content_title {
+		font-size: 3rem;
 	}
 }
 
 .team_block {
-	float:left;
-	width:32%;
-	padding-bottom:1rem;
+	float: left;
+	width: 32%;
+	padding-bottom: 1rem;
+	@include breakpoint(mobile) {
+		width: 100%;
+		float: none;
+	}
 	.team_block_name {
 		margin: 0.5rem 0;
-		font-family:$textFont;
-		font-size:1rem;
-		line-height:1.5;
+		font-family: $textFont;
+		font-size: 1rem;
+		line-height: 1.5;
 		color: #c3d108;
+		@include breakpoint(mobile) {
+			font-size: 2.5rem;
+		}
 	}
 	p {
-		font-family:$textFont;
+		font-family: $textFont;
 		font-size: 0.875rem;
-		line-height:1.4;
+		line-height: 1.4;
 		color: #86b4d9;
+		@include breakpoint(mobile) {
+			font-size: 1.4rem;
+		}
 	}
 	img {
-		width:70%;
+		width: 70%;
 	}
 }
 
