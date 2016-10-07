@@ -5,9 +5,18 @@
 	background-color: $colorDecor-whiteR;
 	border-radius: 10px;
 	border-bottom: 1px solid rgb(229, 238, 244);
+	@include breakpoint(mobile) {
+		display: none;
+		position: absolute;
+		width: 100%;
+		z-index: 55;
+	}
 	.nav_menu_list > li {
 		position:relative;
 		border-right: 1px solid rgb(209, 226, 237); 
+		@include breakpoint(mobile) {
+			display: block;
+		}
 	a {
 		display: block;
 		position: relative;
@@ -21,8 +30,10 @@
 		color: $colorText-blue;
 		}
 		a:hover {
-			color: #fff;
-			background-color: $colorDecor-blue;
+			@include breakpoint(exeptGadgets) {
+				color: #fff;
+				background-color: $colorDecor-blue;	
+			}
 		}
 	}
 	.nav_menu_list>li:first-child a {
@@ -52,14 +63,23 @@
 	}
 
 	.nav_menu_list>li:hover {
-	  	.dropdown-menu {
-	    display: block;
-	  	}
+		@include breakpoint(exeptGadgets) {
+			.dropdown-menu {
+		    	display: block;
+		  	}
+		}
+	  	
 	}
 }
 
 .drop-hover:hover {
-	background-color: $colorDecor-blue;
-	color: #fff;
+	@include breakpoint(exeptGadgets) {
+		background-color: $colorDecor-blue;
+		color: #fff;
+	}
+}
+
+.show {
+	display: block;
 }
 

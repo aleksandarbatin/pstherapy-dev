@@ -16,6 +16,9 @@
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	border-bottom: 1px solid rgb(235, 242, 247);
+	@include breakpoint(mobile) {
+		font-size: 2.5rem;
+	}
 }
 
 
@@ -24,11 +27,19 @@
 	width: 32%;
 	height: auto;
 	margin-bottom: 4rem;
+	@include breakpoint(mobile) {
+		width: 100%;
+		float: none;
+	}
 	.content_block_subtitle {
 		font-family: $textFont;
 		font-size: 1rem;
 		line-height: 1.5;
 		color: $colorDecor-green;
+		@include breakpoint(mobile) {
+			margin-bottom: 1rem;
+			font-size: 1.8rem;
+		}
 	}
 	.content_block_text {
 		margin-bottom: 2rem;
@@ -38,6 +49,9 @@
 		font-size: 0.875rem;
 		line-height:1.4;
 		color: $colorText-blue;
+		@include breakpoint(mobile) {
+			font-size: 1.4rem;
+		}
 	}
 	
 	.datemini {

@@ -17,6 +17,9 @@
     top: 5rem;
     right: 3.87rem;
     z-index: 100;
+    @include breakpoint(tablet) {
+        display: none;
+    }
     .date {
         position: relative;
         width:8rem;
@@ -72,6 +75,9 @@
     top: 1rem;
     z-index: 2;
     overflow: hidden;
+    @include breakpoint(tablet) {
+        background-image: none;
+    }
 }
 
 .slider_content_title h4 {
@@ -79,6 +85,12 @@
 	font-family: $titleFont;
 	font-size: 2rem;
 	color: $colorDecor-orange
+}
+
+.slider_content_text {
+    @include breakpoint(tabletLandscape) {
+        display: none;
+    }
 }
 
 .slider_content_text p {

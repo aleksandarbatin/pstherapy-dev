@@ -15,6 +15,9 @@ $(document).ready(function(){
   	cssEase: 'linear'
   });
 
+  $('.menu_btn').on('click', function() {
+      $('.nav_menu').toggleClass('show'); /* hide and show menu*/
+    });
 });
 
 

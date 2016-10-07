@@ -14,13 +14,22 @@
         @media (max-width: $deskTop)                            { @content; }
     }
     @if $point == lapTop {
-        @media (max-width: $lapTop)                            { @content; }
+        @media (max-width: $lapTop)                             { @content; }
     }
     @else if $point == tabletLandscape {
-        @media (max-width: $tabletLandscape)                              { @content; }
+        @media (max-width: $tabletLandscape)                    { @content; }
     }
     @else if $point == tablet {
-        @media (max-width: $tablet)                           { @content; }
+        @media (max-width: $tablet)                             { @content; }
+    }
+    @else if $point == mobile {
+        @media (max-width: $mobile)                             { @content; }
+    }
+    @else if $point == mobile--L {
+        @media (max-width: $mobile--L)                             { @content; }
+    }
+    @else if $point == exeptGadgets {
+        @media (min-width: $tabletLandscape + 1)                             { @content; }
     }
 }
 
@@ -28,6 +37,8 @@
 $deskTop         : 1250px;
 $lapTop          : 1024px;
 $tabletLandscape : 980px;
-$tablet          : 768px;  
+$tablet          : 768px;
+$mobile          : 680px;
+$mobile--L       : 420px;     
 
 

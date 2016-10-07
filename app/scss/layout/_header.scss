@@ -6,12 +6,25 @@
 	overflow: hidden;
 	padding: 0 2rem;
 	padding: 1.875rem;
+	@include breakpoint(mobile) {
+		text-align: center;
+		padding: 2.5rem 0; 
+	}
 	.logo {
 		float: left;
+		@include breakpoint(mobile) {
+			display: inline-block;
+			float: none;
+			width: 70%;
+			margin-left: 3rem;
+		}
 		a {
 		font-family: $titleFont;
 		font-size: 3rem;
 		color: $colorText-blue;
+		@include breakpoint(mobile) {
+			font-size: 4rem;
+		}
 			svg {
 				width: 3.125rem;
 				height: 3.125rem;
@@ -19,19 +32,30 @@
 				path {
 					fill: $colorText-blue;
 				}
+				@include breakpoint(mobile) {
+					width: 4rem;
+					height: 4rem;
+				} 
 			}	
 		}
 	}
 } 
 
 .page_container { 
-	padding:3px 0 20px;
+	padding: 3px 0 20px;
 	background-color: #fff;
 	border-radius: 10px;
+	@include breakpoint(mobile) {
+		width: 100%;
+		border-radius: 0px;
+	}
 }
 
 .social-icons {
 	float:right;
+	@include breakpoint(mobile) {
+		display: none;
+	}
 	a {
 		display: block;
 		padding-top: 0.5rem;
@@ -43,7 +67,8 @@
 		border-radius: 1.5rem;
 	}
 	svg {
-		width:25px;
+		width: 1.56rem;
+		height: 1.9rem;
 		vertical-align: super;
 		fill:$colorText-blue;
 	}
