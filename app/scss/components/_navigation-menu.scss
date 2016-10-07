@@ -50,6 +50,9 @@
 		z-index: 5555;
 		border-bottom-right-radius: 0.8rem;
 		border-bottom-left-radius: 0.8rem;
+		@include breakpoint(mobile) {
+			position:static;
+		}
 		li {
 			display: block;
 			padding: 1rem 0;
@@ -80,6 +83,6 @@
 }
 
 .show {
-	display: block;
+	display: block!important;
 }
 

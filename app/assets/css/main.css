@@ -437,6 +437,9 @@ u {
     z-index: 5555;
     border-bottom-right-radius: 0.8rem;
     border-bottom-left-radius: 0.8rem; }
+    @media (max-width: 680px) {
+      .nav_menu .dropdown-menu {
+        position: static; } }
     .nav_menu .dropdown-menu li {
       display: block;
       padding: 1rem 0; }
@@ -455,7 +458,7 @@ u {
     color: #fff; } }
 
 .show {
-  display: block; }
+  display: block !important; }
 
 /*============================
 ------  BREADCRUMBS
