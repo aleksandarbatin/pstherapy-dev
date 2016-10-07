@@ -21,6 +21,7 @@ $(document).ready(function(){
   // #####################################
 
   var mobileMenuToggle = function () {
+    if ($(window).width() < 680) {
 
     $('.menu_btn').on('click', function() {
       $('.nav_menu').toggleClass('show'); /* hide and show menu*/
@@ -34,6 +35,7 @@ $(document).ready(function(){
     $(".prevent-link").one("click", function(event) {
       event.preventDefault();
     });
+  }
 
 };
 

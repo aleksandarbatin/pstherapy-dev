@@ -192,6 +192,9 @@ html {
   @media (max-width: 680px) {
     html {
       font-size: 10px; } }
+  @media (max-width: 420px) {
+    html {
+      font-size: 9px; } }
 
 body {
   font-size: 100%; }
@@ -207,24 +210,28 @@ em {
 u {
   text-decoration: underline; }
 
-.btn-read, .contact .btnSend input, .contact .btnClear input {
+.btn-read, .btnClear, .btnSend, .contact .btnSend input, .contact .btnClear input {
   border: none;
   outline: none;
   -webkit-appearance: none; }
 
-.btn-read, .contact .btnSend input, .contact .btnClear input {
+.btn-read, .btnClear, .btnSend, .contact .btnSend input, .contact .btnClear input {
   background-color: #FFBB00;
   color: #fff;
   font-family: "Roboto Condensed", sans-serif;
   padding: 10px 20px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font-size: 1rem; }
   @media (max-width: 680px) {
-    .btn-read, .contact .btnSend input, .contact .btnClear input {
+    .btn-read, .btnClear, .btnSend, .contact .btnSend input, .contact .btnClear input {
       display: block;
       float: left;
       padding: 1rem 2rem;
       margin-top: 2rem;
       font-size: 1.5rem; } }
+
+.btnClear, .btnSend {
+  margin-right: 2rem; }
 
 /*=========================
 -------  TEASER BOX
@@ -383,12 +390,12 @@ u {
 .content_block:nth-of-type(1), .content_block--wider:nth-of-type(1), .content_block--faqs:nth-of-type(1) {
   float: left;
   margin-right: 2%; }
-  .content_block:nth-of-type(1) .btn-read, .content_block--wider:nth-of-type(1) .btn-read, .content_block--faqs:nth-of-type(1) .btn-read, .content_block:nth-of-type(1) .contact .btnSend input, .contact .btnSend .content_block:nth-of-type(1) input, .content_block--wider:nth-of-type(1) .contact .btnSend input, .contact .btnSend .content_block--wider:nth-of-type(1) input, .content_block--faqs:nth-of-type(1) .contact .btnSend input, .contact .btnSend .content_block--faqs:nth-of-type(1) input, .content_block:nth-of-type(1) .contact .btnClear input, .contact .btnClear .content_block:nth-of-type(1) input, .content_block--wider:nth-of-type(1) .contact .btnClear input, .contact .btnClear .content_block--wider:nth-of-type(1) input, .content_block--faqs:nth-of-type(1) .contact .btnClear input, .contact .btnClear .content_block--faqs:nth-of-type(1) input {
+  .content_block:nth-of-type(1) .btn-read, .content_block--wider:nth-of-type(1) .btn-read, .content_block--faqs:nth-of-type(1) .btn-read, .content_block:nth-of-type(1) .btnClear, .content_block--wider:nth-of-type(1) .btnClear, .content_block--faqs:nth-of-type(1) .btnClear, .content_block:nth-of-type(1) .btnSend, .content_block--wider:nth-of-type(1) .btnSend, .content_block--faqs:nth-of-type(1) .btnSend, .content_block:nth-of-type(1) .contact .btnSend input, .contact .btnSend .content_block:nth-of-type(1) input, .content_block--wider:nth-of-type(1) .contact .btnSend input, .contact .btnSend .content_block--wider:nth-of-type(1) input, .content_block--faqs:nth-of-type(1) .contact .btnSend input, .contact .btnSend .content_block--faqs:nth-of-type(1) input, .content_block:nth-of-type(1) .contact .btnClear input, .contact .btnClear .content_block:nth-of-type(1) input, .content_block--wider:nth-of-type(1) .contact .btnClear input, .contact .btnClear .content_block--wider:nth-of-type(1) input, .content_block--faqs:nth-of-type(1) .contact .btnClear input, .contact .btnClear .content_block--faqs:nth-of-type(1) input {
     background-color: #FB6542; }
 
 .content_block:nth-of-type(3), .content_block--wider:nth-of-type(3), .content_block--faqs:nth-of-type(3) {
   float: right; }
-  .content_block:nth-of-type(3) .btn-read, .content_block--wider:nth-of-type(3) .btn-read, .content_block--faqs:nth-of-type(3) .btn-read, .content_block:nth-of-type(3) .contact .btnSend input, .contact .btnSend .content_block:nth-of-type(3) input, .content_block--wider:nth-of-type(3) .contact .btnSend input, .contact .btnSend .content_block--wider:nth-of-type(3) input, .content_block--faqs:nth-of-type(3) .contact .btnSend input, .contact .btnSend .content_block--faqs:nth-of-type(3) input, .content_block:nth-of-type(3) .contact .btnClear input, .contact .btnClear .content_block:nth-of-type(3) input, .content_block--wider:nth-of-type(3) .contact .btnClear input, .contact .btnClear .content_block--wider:nth-of-type(3) input, .content_block--faqs:nth-of-type(3) .contact .btnClear input, .contact .btnClear .content_block--faqs:nth-of-type(3) input {
+  .content_block:nth-of-type(3) .btn-read, .content_block--wider:nth-of-type(3) .btn-read, .content_block--faqs:nth-of-type(3) .btn-read, .content_block:nth-of-type(3) .btnClear, .content_block--wider:nth-of-type(3) .btnClear, .content_block--faqs:nth-of-type(3) .btnClear, .content_block:nth-of-type(3) .btnSend, .content_block--wider:nth-of-type(3) .btnSend, .content_block--faqs:nth-of-type(3) .btnSend, .content_block:nth-of-type(3) .contact .btnSend input, .contact .btnSend .content_block:nth-of-type(3) input, .content_block--wider:nth-of-type(3) .contact .btnSend input, .contact .btnSend .content_block--wider:nth-of-type(3) input, .content_block--faqs:nth-of-type(3) .contact .btnSend input, .contact .btnSend .content_block--faqs:nth-of-type(3) input, .content_block:nth-of-type(3) .contact .btnClear input, .contact .btnClear .content_block:nth-of-type(3) input, .content_block--wider:nth-of-type(3) .contact .btnClear input, .contact .btnClear .content_block--wider:nth-of-type(3) input, .content_block--faqs:nth-of-type(3) .contact .btnClear input, .contact .btnClear .content_block--faqs:nth-of-type(3) input {
     background-color: #3F681C; }
 
 /*========================
@@ -403,7 +410,9 @@ u {
       display: none;
       position: absolute;
       width: 100%;
-      z-index: 55; } }
+      z-index: 55;
+      background-color: #375E97;
+      border-radius: 0; } }
   .nav_menu .nav_menu_list > li {
     position: relative;
     border-right: 1px solid #d1e2ed; }
@@ -420,6 +429,10 @@ u {
       letter-spacing: 1px;
       text-decoration: none;
       color: #375E97; }
+      @media (max-width: 680px) {
+        .nav_menu .nav_menu_list > li a {
+          width: 25%;
+          color: #FFF; } }
     @media (min-width: 981px) {
       .nav_menu .nav_menu_list > li a:hover {
         color: #fff;
@@ -566,7 +579,8 @@ u {
   @media (max-width: 680px) {
     .page_container {
       width: 100%;
-      border-radius: 0px; } }
+      border-radius: 0px;
+      padding: 0; } }
 
 .social-icons {
   float: right; }
@@ -675,7 +689,7 @@ u {
       .slider_content .date svg path {
         width: 100%;
         height: 100%; }
-  .slider_content .btn-read, .slider_content .contact .btnSend input, .contact .btnSend .slider_content input, .slider_content .contact .btnClear input, .contact .btnClear .slider_content input {
+  .slider_content .btn-read, .slider_content .btnClear, .slider_content .btnSend, .slider_content .contact .btnSend input, .contact .btnSend .slider_content input, .slider_content .contact .btnClear input, .contact .btnClear .slider_content input {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
     font-size: 1rem;

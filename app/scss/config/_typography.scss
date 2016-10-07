@@ -26,6 +26,9 @@ html {
     @include breakpoint (mobile) {
         font-size: $baseFontSize - 6;
     }
+    @include breakpoint (mobile--L) {
+        font-size: $baseFontSize - 7;
+    }
 }
 body {
     font-size: 100%;

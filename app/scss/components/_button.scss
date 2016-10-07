@@ -12,6 +12,7 @@
 	font-family: $textFont;
 	padding:10px 20px;
 	border-radius: 5px;
+	font-size: 1rem;
 	@include breakpoint(mobile) {
 		display: block;
 		float: left;
@@ -20,3 +21,10 @@
 		font-size: 1.5rem;
 	}
 }
+
+.btnClear,.btnSend {
+	@extend .btn-read;
+	margin-right: 2rem;
+}
+
+

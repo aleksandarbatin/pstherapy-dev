@@ -10,6 +10,8 @@
 		position: absolute;
 		width: 100%;
 		z-index: 55;
+		background-color: $colorText-blue;
+		border-radius: 0;
 	}
 	.nav_menu_list > li {
 		position:relative;
@@ -28,6 +30,10 @@
 		letter-spacing: 1px;
 		text-decoration: none;
 		color: $colorText-blue;
+		@include breakpoint(mobile) {
+				width: 25%;
+				color: $colorWhite;
+			}
 		}
 		a:hover {
 			@include breakpoint(exeptGadgets) {
