@@ -39,6 +39,7 @@
     text-align: center;
     color: $colorDecor-blue;
     @include breakpoint(mobile) {
+        padding: 1rem 0;
         font-size: 1.4rem;
     }
 }

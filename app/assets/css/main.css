@@ -642,6 +642,7 @@ u {
   color: #FFBB00; }
   @media (max-width: 680px) {
     .footer_rights {
+      padding: 1rem 0;
       font-size: 1.4rem; } }
 
 /*===============
