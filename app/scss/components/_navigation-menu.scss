@@ -29,7 +29,7 @@
 		line-height: 1;
 		letter-spacing: 1px;
 		text-decoration: none;
-		color: $colorText-blue;
+		color: rgb(141,188,124);
 		@include breakpoint(mobile) {
 				width: 25%;
 				color: $colorWhite;
@@ -38,7 +38,7 @@
 		a:hover {
 			@include breakpoint(exeptGadgets) {
 				color: #fff;
-				background-color: $colorDecor-blue;	
+				background-color: rgb(141,188,124);	
 			}
 		}
 	}
@@ -51,7 +51,7 @@
 		position: absolute;
 		left: 0;
 		right: -4rem;
-		background-color: $colorDecor-blue;
+		background-color:  rgb(141,188,124);
 		color: #fff;
 		z-index: 5555;
 		border-bottom-right-radius: 0.8rem;
@@ -83,7 +83,7 @@
 
 .drop-hover:hover {
 	@include breakpoint(exeptGadgets) {
-		background-color: $colorDecor-blue;
+		background-color:rgb(141,188,124);
 		color: #fff;
 	}
 }
