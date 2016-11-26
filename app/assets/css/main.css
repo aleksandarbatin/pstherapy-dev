@@ -271,7 +271,7 @@ u {
     margin-right: 0.6rem; }
   .colorTeaser_box .colorTeaser_box_title {
     display: inline-block;
-    font-family: "Acme", sans-serif;
+    font-family: "Cantora One", sans-serif;
     font-size: 2rem;
     color: #fff; }
     @media (max-width: 680px) {
@@ -302,7 +302,7 @@ u {
   overflow: hidden; }
 
 .content_title {
-  font-family: "Acme", sans-serif;
+  font-family: "Cantora One", sans-serif;
   font-size: 1.8rem;
   color: #616149;
   padding-bottom: 1rem;
@@ -413,6 +413,8 @@ u {
       z-index: 55;
       background-color: #616149;
       border-radius: 0; } }
+  .nav_menu .nav_menu_list {
+    padding: 0 1px; }
   .nav_menu .nav_menu_list > li {
     position: relative;
     border-right: 1px solid #d1e2ed; }
@@ -423,7 +425,7 @@ u {
       display: block;
       position: relative;
       padding: 1.7rem 0.9rem;
-      font-family: "Acme", sans-serif;
+      font-family: "Cantora One", sans-serif;
       font-size: 1.56rem;
       line-height: 1;
       letter-spacing: 1px;
@@ -555,7 +557,7 @@ u {
         width: 70%;
         margin-left: 3rem; } }
     .header .logo a {
-      font-family: "Acme", sans-serif;
+      font-family: "Cantora One", sans-serif;
       font-size: 3rem;
       color: #616149; }
       @media (max-width: 680px) {
@@ -573,7 +575,7 @@ u {
             height: 4rem; } }
 
 .page_container {
-  padding: 3px 0 20px;
+  padding: 1px 0 20px;
   background-color: #fff;
   border-radius: 10px; }
   @media (max-width: 680px) {
@@ -719,7 +721,7 @@ u {
 
 .slider_content_title h4 {
   margin-bottom: 1rem;
-  font-family: "Acme", sans-serif;
+  font-family: "Cantora One", sans-serif;
   font-size: 2rem;
   color: #e4a8aa; }
 
