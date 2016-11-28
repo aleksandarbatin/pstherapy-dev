@@ -128,7 +128,7 @@ html, body {
   overflow-x: hidden; }
 
 body {
-  background: url("../img/patternMM.jpg");
+  background: url("../img/patternBg.jpg");
   background-color: #a8e194;
   padding-bottom: 50px; }
 
@@ -671,7 +671,7 @@ u {
     width: 8rem;
     height: 4.5rem;
     margin-bottom: 0.6rem;
-    background-image: url("/assets/img/slider_date_plane.png");
+    background-image: url("../../assets/img/dateCloud.png");
     background-size: 100%;
     background-repeat: no-repeat; }
     .slider_content .date span {
