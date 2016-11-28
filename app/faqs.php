@@ -25,23 +25,4 @@
 				</div>
 			</div>
 			
-			<div class="footer">
-				<ul class="footer_menu">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">O nama</a></li>
-					<li><a href="#">Our Charity</a></li>
-					<li><a href="#">Program</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Kontakt</a></li>
-				</ul>
-				<div class="footer_rights">psy @ 	2016 Privacy Policy</div>
-			</div>
-		</div>
-	</div>
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/main.min.js"></script>
-	<script type=text/javascript>
-		mobileMenuToggle();
-	</script>
-</body>
-</html>
+			<?php include "common/footer.php"; ?>
