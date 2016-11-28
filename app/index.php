@@ -15,9 +15,10 @@
 						<div class="date">
 							<span>15. May, 2016</span>
 						</div>
-						<div class="slider_content_title"><h4>Ut enim ad minim veniam</h4></div>
+						<div class="slider_content_title"><h4>Izazov odrastanja</h4></div>
 						<div class="slider_content_text">
-							<p>Probo molestiae deseruisse his te, ut vim odio vide eripuit. No nec putent cotidieque voluptatibus, ut nec libris laoreet. Te soluta quidam labores vis, quo an aeterno blandit suscipiantur. Probo graece mei an, clita tacimates praesent cum ne.</p>
+							<p>“Sve je lako kad si mlad”, kaže pesma ali, da li je  baš tako? 
+							Mnogo je nepoznanica i izazova sa kojima se suočavaju deca svaki dan. Počevši od najranijeg perioda, tu su očekivanja odraslih da prestanu da piške u pelene, da nauče da govore, da nauče pravilno da izgovaraju sve glasove, da nauče da pišu, lepo se uklope u vrtićku/šklosku grupu, spavaju i kad im se ne spava, jedu i ono što baš i ne vole… </p>
 							<a href="#" class="btn-read">Read more</a>
 						</div>
 					</div>
@@ -29,7 +30,7 @@
 						<div class="date">
 							<span>15. May, 2016</span>
 						</div>
-						<div class="slider_content_title"><h4>Lorem ipsum dolor sit amet</h4></div>
+						<div class="slider_content_title"><h4>O igri i dečijoj psihoterapiji</h4></div>
 						<div class="slider_content_text">
 							<p>Veniam equidem vis no, mel et mollis concludaturque, ei cum velit error. Cu mea elit graeco legendos, labore everti dolores nec ea, consul imperdiet persequeris qui te. Ancillae omnesque interpretaris eu per.</p>
 							<a href="#" class="btn-read">Read more</a>
@@ -43,23 +44,9 @@
 						<div class="date">
 						<span>15. May, 2016</span>
 						</div>
-						<div class="slider_content_title"><h4>Solum integre at est</h4></div>
+						<div class="slider_content_title"><h4>O mentalnom zdravlju i dečijoj psihoterapiji</h4></div>
 						<div class="slider_content_text">
 							<p>Probo molestiae deseruisse his te, ut vim odio vide eripuit. No nec putent cotidieque voluptatibus, ut nec libris laoreet. Te soluta quidam labores vis, quo an aeterno blandit suscipiantur. Probo graece mei an, clita tacimates praesent cum ne.</p>
-							<a href="#" class="btn-read">Read more</a>
-						</div>
-					</div>
-				</div>
-				<div class="slide-block">
-					<img src="assets/img/slider_img4.jpg" alt="">
-					<div class="slider_content-overlay"></div>
-					<div class="slider_content">
-						<div class="date">
-						<span>15. May, 2016</span>
-						</div>
-						<div class="slider_content_title"><h4>Pri erat dignissim ex</h4></div>
-						<div class="slider_content_text">
-							<p>Libris labitur est ea, sed legere senserit id. Appetere petentium disputationi qui ea, consequat definiebas contentiones sit id. Inani aliquid convenire in sit, ne est facete timeam, albucius ocurreret mediocritatem nec cu.</p>
 							<a href="#" class="btn-read">Read more</a>
 						</div>
 					</div>

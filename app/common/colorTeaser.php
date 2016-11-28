@@ -26,7 +26,7 @@
 					</svg>
 					<h3 class="colorTeaser_box_title">Kada vam<br> možemo pomoći</h3>
 					<div class="colorTeaser_box_text">
-						<p>Ut torquatos intellegebat sed. Modus oratio ad usu, augue audiam hendrerit vim ut, pri id tation suscipit temporibus. Duis vidit fastidii sit id. Aliquam inimicus appellantur in eam.</p>
+						<p>Kada je Vaše dete pod stresom ili ima probleme u kojima Vi ne može dovoljno da mu pomognete. </p>
 					</div>
 				</div>
 				<div class="colorTeaser_box">
@@ -38,7 +38,9 @@
 					</svg>
 					<h3 class="colorTeaser_box_title">Kako vam <br> možemo pomoći</h3>
 					<div class="colorTeaser_box_text">
-						<p>Duo at quodsi vivendum efficiendi. His ei odio possim quaeque, ne vix dolore mucius noster. Detraxit argumentum ex sit, mel quidam utamur ex. Sed ne ferri contentiones.</p>
+						<p>Vrste pomoći koje pružamo su: savetovanje roditelja i psihoterapija dece.
+						Ukoliko kao roditelj imate nedoumica oko vaspitanja, ponašanja deteta, zabrinuti ste kako će  se neki Vaš postupak odraziti na dete..
+						</p>
 					</div>
 				</div>
 			</div>
