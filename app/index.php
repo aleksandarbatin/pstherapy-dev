@@ -19,7 +19,7 @@
 						<div class="slider_content_text">
 							<p>“Sve je lako kad si mlad”, kaže pesma ali, da li je  baš tako? 
 							Mnogo je nepoznanica i izazova sa kojima se suočavaju deca svaki dan. Počevši od najranijeg perioda, tu su očekivanja odraslih da prestanu da piške u pelene, da nauče da govore, da nauče pravilno da izgovaraju sve glasove, da nauče da pišu, lepo se uklope u vrtićku/šklosku grupu, spavaju i kad im se ne spava, jedu i ono što baš i ne vole… </p>
-							<a href="#" class="btn-read">Read more</a>
+							<a href="article.php" class="btn-read">Read more</a>
 						</div>
 					</div>
 				</div>

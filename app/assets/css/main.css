@@ -268,7 +268,8 @@ u {
     float: left;
     width: 3.8rem;
     height: 3.8rem;
-    margin-right: 0.6rem; }
+    margin-right: 0.6rem;
+    fill: #fff; }
   .colorTeaser_box .colorTeaser_box_title {
     display: inline-block;
     font-family: "Cantora One", sans-serif;
@@ -1043,3 +1044,14 @@ u {
 
 .team_block:nth-of-type(2), .team_block:nth-of-type(3) {
   margin-right: 2%; }
+
+.contentArticle img {
+  width: 50%;
+  float: right;
+  padding-left: 2rem; }
+
+.contentArticle .content_block, .contentArticle .content_block--wider, .contentArticle .content_block--faqs {
+  width: 100%; }
+
+.contentArticle p, .contentArticle .content_block ul li, .content_block ul .contentArticle li, .contentArticle .content_block--wider ul li, .content_block--wider ul .contentArticle li, .contentArticle .content_block--faqs ul li, .content_block--faqs ul .contentArticle li {
+  font-size: 1rem; }
