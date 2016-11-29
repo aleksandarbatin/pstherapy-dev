@@ -16,6 +16,7 @@
 	<script type="text/javascript" src="assets/js/main.min.js"></script>
 	<script type=text/javascript>
 		mobileMenuToggle();
+		hoverDropdown();
 	</script>
 </body>
 </html>

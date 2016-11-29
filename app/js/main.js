@@ -20,6 +20,23 @@ $(document).ready(function(){
   // Toggle mobile menu
   // #####################################
 
+  var hoverDropdown = function(){
+    if ($(window).width() > 680) {
+      $(".drop-btnOne").mouseover(function(){
+        $(".drop-btnOne>a").css("color", "white");
+      });
+      $(".drop-btnOne").mouseout(function(){
+        $(".drop-btnOne>a").css("color", "#8dbc7c");
+      });
+      $(".drop-btnTwo").mouseover(function(){
+        $(".drop-btnTwo>a").css("color", "white");
+      });
+      $(".drop-btnTwo").mouseout(function(){
+        $(".drop-btnTwo>a").css("color", "#8dbc7c");
+      });
+    }
+  }
+
   var mobileMenuToggle = function () {
     if ($(window).width() < 680) {
 
@@ -35,6 +52,9 @@ $(document).ready(function(){
     $(".prevent-link").one("click", function(event) {
       event.preventDefault();
     });
+   $(".dropdown-menu").mouseover(function(){
+      $(".prevent-link").css("color", "white");
+   });
   }
 
 };
