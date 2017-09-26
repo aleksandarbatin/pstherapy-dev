@@ -128,9 +128,11 @@ html, body {
   overflow-x: hidden; }
 
 body {
-  background: url("../img/patternBg.jpg");
+  background: url("../img/bg-shapes.png");
   background-color: #a8e194;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  background-size: 100%;
+  background-repeat: repeat; }
 
 img {
   display: block;

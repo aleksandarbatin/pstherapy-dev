@@ -25,9 +25,11 @@ html, body {
 }
 
 body {
-    background: url('../img/patternBg.jpg');
+    background: url('../img/bg-shapes.png');
     background-color:rgb(168,225,148);
     padding-bottom: 50px;
+    background-size: 100%;
+    background-repeat: repeat;
     // background-color: $colorDecor-white;
 }
 
