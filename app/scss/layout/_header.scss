@@ -5,13 +5,14 @@
 .header {
 	overflow: hidden;
 	padding: 0 2rem;
-	padding: 1.875rem;
+	// padding: 1.875rem;
 	@include breakpoint(mobile) {
 		text-align: center;
 		padding: 2.5rem 0; 
 	}
 	.logo {
 		float: left;
+		width: 20%;
 		@include breakpoint(mobile) {
 			display: inline-block;
 			float: none;
@@ -54,6 +55,7 @@
 
 .social-icons {
 	float:right;
+	margin-top: 5%;
 	@include breakpoint(mobile) {
 		display: none;
 	}
