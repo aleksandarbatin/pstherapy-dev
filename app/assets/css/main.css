@@ -128,7 +128,7 @@ html, body {
   overflow-x: hidden; }
 
 body {
-  background: url("../img/patternBg.jpg");
+  background: url("../img/bg-patterns/kids-bg-green-wide.png");
   background-color: #a8e194;
   padding-bottom: 50px;
   background-repeat: repeat; }
@@ -544,14 +544,18 @@ u {
 =================*/
 .header {
   overflow: hidden;
-  padding: 0 2rem; }
+  padding: 1.875rem; }
   @media (max-width: 680px) {
     .header {
       text-align: center;
       padding: 2.5rem 0; } }
   .header .logo {
     float: left;
-    width: 20%; }
+    float: left;
+    z-index: 5555;
+    background: white;
+    border-radius: 7px;
+    padding: 5px; }
     @media (max-width: 680px) {
       .header .logo {
         display: inline-block;
@@ -587,8 +591,7 @@ u {
       padding: 0; } }
 
 .social-icons {
-  float: right;
-  margin-top: 5%; }
+  float: right; }
   @media (max-width: 680px) {
     .social-icons {
       display: none; } }
