@@ -1,0 +1,97 @@
+/*================
+----- HEADER
+=================*/
+
+.header {
+	position: relative;
+	overflow: hidden;
+	// padding: 0 2rem;
+	padding: 1.875rem;
+	@include breakpoint(mobile) {
+		text-align: center;
+		padding: 2.5rem 0; 
+	}
+	.container {
+		position: relative;
+		@extend %clearfix;
+	}
+	.logo {
+		float: left;
+		width: 280px;
+	    z-index: 5555;
+	    border-radius: 7px;
+	    padding: 5px;
+		@include breakpoint(mobile) {
+			display: inline-block;
+			float: none;
+			width: 70%;
+			margin-left: 3rem;
+		}
+		a {
+		font-family: $titleFont;
+		font-size: 3rem;
+		color: $colorText-blue;
+		@include breakpoint(mobile) {
+			font-size: 4rem;
+		}
+			svg {
+				width: 3.125rem;
+				height: 3.125rem;
+				vertical-align: sub;
+				path {
+					fill: $colorText-blue;
+				}
+				@include breakpoint(mobile) {
+					width: 4rem;
+					height: 4rem;
+				} 
+			}	
+		}
+	}
+} 
+
+.page_container { 
+	padding: 1px 0 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	@include breakpoint(mobile) {
+		width: 100%;
+		border-radius: 0px;
+		padding: 0;
+	}
+}
+
+.social-icons {
+	@include absolute(center-vertical);
+	right: 2.5rem;
+	@include breakpoint(mobile) {
+		display: none;
+	}
+	
+	a {
+		display: block;
+		position: relative;
+		padding-top: 0.5rem;
+		margin-right: 1.3rem;
+		background-color: #fff;
+		width: 3.5rem;
+		height: 3.5rem;
+		text-align: center;
+		border-radius: 1.75rem;
+		-webkit-box-shadow: -8px 8px 21px -11px rgba(0,0,0,0.75);
+-moz-box-shadow: -8px 8px 21px -11px rgba(0,0,0,0.75);
+box-shadow: -8px 8px 21px -11px rgba(0,0,0,0.75);
+	}
+	i {
+		@include absolute(center);
+		font-size: 1.8rem;
+		vertical-align: super;
+		color:$colorText-blue;
+
+	}
+	li:last-child a {
+		margin-right:0;
+	}
+}
+
+

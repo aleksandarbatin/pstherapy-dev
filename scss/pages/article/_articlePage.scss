@@ -1,0 +1,43 @@
+
+.contentArticle {
+	padding-top: 0;
+	img {
+		width: 50%;
+		float: right;
+		padding-left: 2rem;
+		margin-bottom: 2rem;
+	}
+	.content_block {
+		width: 100%;
+		float: none;
+	}
+	h3 {
+		margin-bottom: 1.6rem;
+		font-size: 2.4rem;
+		font-weight: 700;
+		color: $colorText-blue;
+	}
+	p {
+		margin-bottom: 1.6rem;
+		font-size: 1.4rem;
+		font-weight: 300;
+	}
+	ul li {
+		padding-left: 1.6rem;
+	}
+}
+
+.work {
+	.colorTeaser {
+		margin-bottom: 8rem;
+	}
+	.colorTeaser_box {
+		position: relative;
+		min-height: 10rem;
+		&_title {
+			@include absolute(center);
+			width: 90%;
+			text-align: center;
+		}
+	}
+}

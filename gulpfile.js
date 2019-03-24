@@ -15,10 +15,10 @@ var gulp = require("gulp"),
 // /////////////////////////////////////////////////
 
 gulp.task("scripts",function(){
-    gulp.src(["app/js/**/*.js", '!app/js/**/*.min.js'])
+    gulp.src(["js/**/*.js", '!js/**/*.min.js'])
     .pipe(rename({suffix:'.min'}))
     .pipe(uglify())
-    .pipe(gulp.dest('app/assets/js'))
+    .pipe(gulp.dest('assets/js'))
     .pipe(reload({stream:true}));
 });
 
@@ -27,12 +27,12 @@ gulp.task("scripts",function(){
 // /////////////////////////////////////////////////
 
 gulp.task("styles",function(){
-    gulp.src("app/scss/**/*.scss")
+    gulp.src("scss/**/*.scss")
     .pipe(plumber())
     .pipe(sass({
       style:"compressed"
     }))
-    .pipe(gulp.dest("app/assets/css/"))
+    .pipe(gulp.dest("assets/css/"))
     .pipe(reload({stream:true}));
 });
 
@@ -41,29 +41,29 @@ gulp.task("styles",function(){
 // /////////////////////////////////////////////////
 
 gulp.task("html", function(){
-    gulp.src("app/**/*.html")
+    gulp.src("**/*.php")
     .pipe(reload({stream:true}));
 });
 
 // /////////////////////////////////////////////////
 // Browser-Sync Task
 // /////////////////////////////////////////////////
-gulp.task('browser-sync', function(){
-  browserSync({
-    server:{
-      baseDir:"./app/"
-    }
-  })
+
+gulp.task('browser-sync', function() {
+    browserSync.init({
+        proxy: "http://localhost/pstherapy-dev/",
+        files: ["**/*.php"]
+    });
 });
+
 
 // /////////////////////////////////////////////////
 // Watch Task
 // /////////////////////////////////////////////////
 
 gulp.task("watch",function(){
-  gulp.watch("app/js/**/*.js",['scripts']);
-  gulp.watch("app/scss/**/*.scss",['styles']);
-  gulp.watch("app/**/*.html",['html']);
+  gulp.watch("js/**/*.js",['scripts']);
+  gulp.watch("scss/**/*.scss",['styles']);
 });
 
 

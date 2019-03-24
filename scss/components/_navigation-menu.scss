@@ -1,0 +1,101 @@
+/*========================
+----- NAVIGATION - MENU
+==========================*/
+.nav_menu {
+	background-color: $colorDecor-whiteR;
+	border-radius: 10px;
+	border-bottom: 1px solid rgb(229, 238, 244);
+	@include breakpoint(mobile) {
+		display: none;
+		position: absolute;
+		width: 100%;
+		z-index: 55;
+		background-color: $colorText-blue;
+		border-radius: 0;
+	}
+	.nav_menu_list {
+		padding: 0 1px;
+	}
+	.nav_menu_list > li {
+		position:relative;
+		border-right: 1px solid rgb(209, 226, 237); 
+		@include breakpoint(mobile) {
+			display: block;
+		}
+		&:hover {
+			color: #fff;
+			background-color: rgb(141,188,124);	
+			a {
+				color: #fff;
+			}
+		}
+		&:first-child {
+			border-top-left-radius: 0.8rem;
+		}
+	a, span {
+		display: block;
+		position: relative;
+		padding: 1.7rem 0.9rem;
+		font-family: $titleFont;
+		//font-weight: bold;
+		font-size: 1.5rem;
+		line-height: 1;
+		letter-spacing: 1px;
+		text-decoration: none;
+		color: rgb(141,188,124);
+		@include breakpoint(mobile) {
+				width: 25%;
+				color: $colorWhite;
+			}
+		}
+		
+	}
+	.nav_menu_list>li:first-child a {
+		border-top-left-radius: 0.8rem;
+		border-bottom-left-radius: 0.8rem;
+	}	
+	.dropdown-menu {
+		display:none;
+		position: absolute;
+		left: 0;
+		right: -4rem;
+		background-color:  rgb(141,188,124);
+		color: #fff;
+		z-index: 5555;
+		//border-bottom-right-radius: 0.8rem;
+		//border-bottom-left-radius: 0.8rem;
+		@include breakpoint(mobile) {
+			position:static;
+		}
+		li {
+			display: block;
+			padding: 1rem 0;
+			a {
+				padding: 0 1rem 0 1rem;
+				color: #fff;
+				font-family: "Roboto Condensed", sans-serif;
+				font-size: 1rem;
+			}
+		}
+	}
+
+	.nav_menu_list>li:hover {
+		@include breakpoint(exeptGadgets) {
+			.dropdown-menu {
+		    	display: block;
+		  	}
+		}
+	  	
+	}
+}
+
+.drop-hover:hover {
+	@include breakpoint(exeptGadgets) {
+		color: #fff;
+	}
+}
+
+.show {
+	display: block!important;
+}
+
